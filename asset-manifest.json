@@ -1,13 +1,24 @@
 {
   "files": {
-    "main.css": "/job-listings/static/css/main.7c581615.css",
-    "main.js": "/job-listings/static/js/main.b67f4497.js",
+    "main.css": "/job-listings/static/css/main.b1b04dd3.css",
+    "main.js": "/job-listings/static/js/main.267592b4.js",
+    "static/media/loop-studios.dd5452ec.svg": "/job-listings/static/media/loop-studios.dd5452ec.7778c957c5751d1502cc594d020e34ba.svg",
+    "static/media/photosnap.4e876ae4.svg": "/job-listings/static/media/photosnap.4e876ae4.5a867c13a374d62b400f967f5469d0b1.svg",
+    "static/media/manage.ee34de45.svg": "/job-listings/static/media/manage.ee34de45.5a528a9669728fb94c8cac60ad73882f.svg",
+    "static/media/insure.be3c9b2f.svg": "/job-listings/static/media/insure.be3c9b2f.4d535e7e02c25d02b163c28b8d893f42.svg",
+    "static/media/account.6f36c27e.svg": "/job-listings/static/media/account.6f36c27e.903d6cd02abadf4b4d6025e127c92838.svg",
+    "static/media/eyecam-co.5a6cae4d.svg": "/job-listings/static/media/eyecam-co.5a6cae4d.0abb14e8a292eed471d54c4bb0eee875.svg",
+    "static/media/shortly.e88c9eff.svg": "/job-listings/static/media/shortly.e88c9eff.3c01b577742e2648f6f987e088368dd3.svg",
+    "static/media/myhome.41a2df83.svg": "/job-listings/static/media/myhome.41a2df83.aaaaa430346f24f652d52f2f1fb2d5b8.svg",
+    "static/media/the-air-filter-company.bf5fc537.svg": "/job-listings/static/media/the-air-filter-company.bf5fc537.9b55f6443c39f7b79348bce1335fbc7d.svg",
+    "static/media/faceit.32ab5e56.svg": "/job-listings/static/media/faceit.32ab5e56.54a148ce9e8793ff767eb7ad09aa0f8a.svg",
+    "static/media/bg-header-desktop.ea76ac9d.svg": "/job-listings/static/media/bg-header-desktop.ea76ac9d.8694f4668c94cdc9d16e.svg",
     "index.html": "/job-listings/index.html",
-    "main.7c581615.css.map": "/job-listings/static/css/main.7c581615.css.map",
-    "main.b67f4497.js.map": "/job-listings/static/js/main.b67f4497.js.map"
+    "main.b1b04dd3.css.map": "/job-listings/static/css/main.b1b04dd3.css.map",
+    "main.267592b4.js.map": "/job-listings/static/js/main.267592b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c581615.css",
-    "static/js/main.b67f4497.js"
+    "static/css/main.b1b04dd3.css",
+    "static/js/main.267592b4.js"
   ]
 }
