@@ -1,0 +1,13 @@
+.header-layout {
+  height: 8rem;
+  background-color: #5ba4a4;
+  background-image: url("../assets/bg-header-desktop.ea76ac9d.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (min-width: 900px) {
+  .header-layout {
+    height: 10rem;
+  }
+}
