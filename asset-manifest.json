@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/job-listings/static/css/main.7c581615.css",
+    "main.js": "/job-listings/static/js/main.b67f4497.js",
+    "index.html": "/job-listings/index.html",
+    "main.7c581615.css.map": "/job-listings/static/css/main.7c581615.css.map",
+    "main.b67f4497.js.map": "/job-listings/static/js/main.b67f4497.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c581615.css",
+    "static/js/main.b67f4497.js"
+  ]
+}
