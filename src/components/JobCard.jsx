@@ -2,14 +2,22 @@ import styles from "./JobCard.module.css";
 
 const JobCard = ({ item }) => {
   return (
-    <div>
-      <img src={item.image} />
-      <h4>{item.name}</h4>
-      <h2>{item.vacancy}</h2>
-      <p>{item.date}</p>
-      <p>{item.type}</p>
-      <p>{item.country}</p>
-      <ul>
+    <div className={styles["info-box-wrapper"]}>
+      <span className={styles["img-wrapper"]}>
+        <img src={item.image} />
+      </span>
+      <div>
+        <h4>{item.name}</h4>
+        <h2>{item.vacancy}</h2>
+        <div className={styles["info-box"]}>
+          <p>{item.date}</p>
+          <span className={styles.dot}></span>
+          <p>{item.type}</p>
+          <span className={styles.dot}></span>
+          <p>{item.country}</p>
+        </div>
+      </div>
+      <ul className={styles["card-skills"]}>
         {item.skills.map((el) => (
           <li key={el}>{el}</li>
         ))}

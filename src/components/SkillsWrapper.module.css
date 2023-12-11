@@ -2,34 +2,37 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 2rem;
+  padding: 2rem 1rem;
 }
 
 .skills-wrapper ul {
-  padding: 2rem 0;
+  padding: 1rem 0;
   display: flex;
   max-width: 50rem;
   flex-wrap: wrap;
-  column-gap: 0.5rem;
-  row-gap: 0.5rem;
+  /* column-gap: 0.6rem;
+  row-gap: 0.6rem; */
   justify-content: center;
-  font-size: 1.2rem;
-  border: 2px solid black;
+  font-size: 1.1rem;
+  color: #fff;
+  /* border: 2px solid black; */
 }
 
 .skills-btn {
+  margin: 0 0.9rem 0.7rem 0;
   display: flex;
   align-items: center;
-  min-height: 3rem;
-
+  min-height: 2.5rem;
+  /* letter-spacing: 1px; */
   font-weight: 700;
-  background: #effafa;
-  border-radius: 0.5rem;
-  padding: 0 0.8rem;
+  background: #9a8bc5;
+  border-radius: 8px;
+  padding: 0 0.6rem;
   cursor: pointer;
-  transition: 0.5s ease-in-out;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.25);
 }
 
 .btn-clicked {
-  background: #5e7070;
+  background: #5f4e88;
 }

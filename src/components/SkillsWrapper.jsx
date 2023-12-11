@@ -17,6 +17,8 @@ const SkillsWrapper = () => {
     });
   };
 
+  console.log(clickedItems);
+
   return (
     <div className={styles["skills-wrapper"]}>
       <ul>
