@@ -4,10 +4,10 @@ import styles from "./SkillsWrapper.module.css";
 
 import { SKILLS } from "../store/skills";
 
-const SkillsWrapper = () => {
+const SkillsWrapper = ({ selecting }) => {
   const [clickedItems, setClickedItems] = useState([]);
 
-  const clickHandler = (index) => {
+  const clickHandler = (index, skill) => {
     setClickedItems((prev) => {
       const newItems = prev.includes(index)
         ? prev.filter((item) => item !== index)
@@ -15,9 +15,9 @@ const SkillsWrapper = () => {
 
       return newItems;
     });
-  };
 
-  console.log(clickedItems);
+    selecting(skill);
+  };
 
   return (
     <div className={styles["skills-wrapper"]}>
@@ -29,7 +29,7 @@ const SkillsWrapper = () => {
             className={`${styles["skills-btn"]} ${
               clickedItems.includes(index) ? styles["btn-clicked"] : ""
             }`}
-            onClick={() => clickHandler(index)}
+            onClick={() => clickHandler(index, skill)}
           >
             {skill}
           </span>
