@@ -5,6 +5,11 @@
   border-radius: 0.5rem;
   box-shadow: 0 1.5rem 2rem -0.5rem rgba(91, 164, 164, 0.25);
   margin-bottom: 4rem;
+  max-width: 70rem;
+  transition: transform 0.2s ease-in-out;
+}
+.info-box-wrapper:hover {
+  transform: translateY(-0.3rem);
 }
 .img-wrapper {
   display: block;
@@ -13,33 +18,32 @@
   border-radius: 50%;
   overflow: hidden;
 }
-
 .img-wrapper img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   display: block;
   transition: 0.5s ease-out;
 }
-
 .info-box-wrapper h4,
 .info-box-wrapper h2 {
   margin: 1rem 0;
 }
-
 .info-box-wrapper h4 {
   font-weight: 700;
   color: #5ba4a4;
   font-size: 17px;
   letter-spacing: 1px;
 }
-
 .info-box-wrapper h2 {
   color: #2c3a3a;
-  transition: 0.5s;
+  transition: 0.3s;
   font-size: 19px;
   letter-spacing: 1px;
 }
-
+.info-box-wrapper h2:hover {
+  cursor: pointer;
+  color: rgb(93, 64, 178);
+}
 .info-box {
   color: #7b8e8e;
   letter-spacing: 0.5px;
@@ -50,7 +54,6 @@
   border-bottom: 1px solid #7b8e8e;
   margin: 0 0 1rem;
 }
-
 .dot {
   display: block;
   width: 3px;
@@ -58,12 +61,10 @@
   border-radius: 50%;
   background-color: #7b8e8e;
 }
-
 .card-skills {
   display: flex;
   flex-wrap: wrap;
 }
-
 .card-skills li {
   display: flex;
   align-items: center;
@@ -75,8 +76,80 @@
   background: #effafa;
   border-radius: 0.5rem;
   padding: 0 0.7rem;
-  cursor: pointer;
+  cursor: default;
   transition: 0.5s ease-in-out;
   margin-bottom: 1rem;
   margin-right: 1rem;
+}
+
+@media only screen and (min-width: 740px) {
+  .info-box-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin: 0 auto 4rem;
+  }
+  .img-wrapper {
+    width: 6rem;
+    height: 6rem;
+    overflow: visible;
+    margin: 0 4rem 0 3rem;
+  }
+  .info-box-wrapper h4 {
+    font-size: 19px;
+  }
+
+  .info-box-wrapper h2 {
+    font-size: 21px;
+  }
+
+  .info-box {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .info-upper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .info-upper-left {
+    width: 22rem;
+  }
+  .info-box {
+    border: none;
+  }
+  .card-skills {
+    align-items: center;
+  }
+
+  .card-skills li {
+    height: 2.6rem;
+    font-size: 1.1rem;
+    padding: 0 0.7rem;
+    margin-right: 0.5rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .info-box-wrapper {
+    max-width: 80rem;
+  }
+  .info-upper-left {
+    width: 30rem;
+  }
+  .info-box-wrapper h4,
+  .info-box-wrapper h2 {
+    margin: 1.5rem 0;
+  }
+  .info-box-wrapper h4 {
+    font-size: 20px;
+  }
+
+  .info-box-wrapper h2 {
+    font-size: 22px;
+  }
+  .info-box {
+    font-size: 18px;
+  }
 }

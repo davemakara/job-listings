@@ -21,8 +21,6 @@ function App() {
     });
   };
 
-  console.log(selectedSkills);
-
   let renderedCard;
 
   if (selectedSkills.length === 0) {
@@ -49,7 +47,14 @@ function App() {
         </ul>
       );
     } else {
-      renderedCard = <h1>No matching job cards found.</h1>;
+      renderedCard = (
+        <div className={styles["no-match-caption-wrapper"]}>
+          <h2 className={styles["no-match-caption"]}>
+            No matching jobs found.
+          </h2>
+          <h3>Please try another combination.</h3>
+        </div>
+      );
     }
   }
 
